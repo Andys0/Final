@@ -1,0 +1,27 @@
+body{
+    background-color: salmon;
+}
+h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#buscador{
+    display: flex;
+    justify-content: center;
+
+}
+img{
+    width: 100px;
+}
+.grid-fluid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    border: 0.5px solid black;
+}
+.loader{
+    display: block;
+    margin: auto ;
+}
